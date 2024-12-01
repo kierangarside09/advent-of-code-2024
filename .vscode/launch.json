@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Day1",
+            "request": "launch",
+            "mainClass": "day1.Day1",
+            "projectName": "AOC-2024"
+        },
+        {
+            "type": "java",
             "name": "main",
             "request": "launch",
             "mainClass": "day2test.main",
