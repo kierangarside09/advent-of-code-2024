@@ -33,6 +33,12 @@ public class HintInput {
         
     }
 
+    public void print() {
+        for (String line : hintLines) {
+            System.out.println(line);
+        }
+    }
+
     public String[] getHintLines() {
         return this.hintLines;
     }
